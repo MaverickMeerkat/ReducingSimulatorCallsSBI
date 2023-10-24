@@ -7,18 +7,18 @@ This repository contains the code accompanying the paper "Reducing Simulator Cal
 To run the toy tasks, refer to the `RunTasks.ipynb` notebook. This notebook provides a comprehensive overview of the implementation and execution of the toy tasks.
 
 For the individual code of tasks 1 to 6, consult the following files:
-- `task1.py`
-- `task2.py`
-- `task3.py`
-- `task4.py`
-- `task5.py`
-- `task6.py`
+- `tasks/GMM.py`
+- `tasks/TwoMoons.py`
+- `tasks/Sisson.py`
+- `tasks/SLCP.py`
+- `tasks/BayesLR.py`
+- `tasks/BerGLM.py`
 
 Each file corresponds to a specific task and contains the relevant code for execution.
 
-To run the Sequential Neural Likelihood Estimation (SNLE), refer to the `SNLE.ipynb` notebook. This notebook guides you through the steps to execute the SNLE implementation.
+To run the Sequential Neural Likelihood Estimation (SNLE) vs. Surrogate method, refer to the `SNLE.ipynb` notebook. This notebook guides you through the steps to execute the SNLE implementation.
 
-For the Hierarchical HMC (HH), follow the instructions in the `HH.ipynb` notebook. This notebook provides details on running the Hierarchical HMC.
+For the Hodgkin-Huxley (HH), follow the instructions in the `HH.ipynb` notebook. This notebook provides details on running the HH problem.
 
 ## Dependencies
 
