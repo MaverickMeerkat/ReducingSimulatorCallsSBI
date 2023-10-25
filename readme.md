@@ -16,9 +16,9 @@ For the individual code of tasks 1 to 6, consult the following files:
 
 Each file corresponds to a specific task and contains the relevant code for execution.
 
-To run the Sequential Neural Likelihood Estimation (SNLE) vs. Surrogate method, refer to the `SNLE.ipynb` notebook. This notebook guides you through the steps to execute the SNLE implementation.
+To run the Sequential Neural Likelihood Estimation (SNLE) vs. Surrogate method, refer to the `RunSNLE.ipynb` notebook. This notebook guides you through the steps to execute the SNLE implementation.
 
-For the Hodgkin-Huxley (HH), follow the instructions in the `HH.ipynb` notebook. This notebook provides details on running the HH problem.
+For the Hodgkin-Huxley (HH), you first have to compile the `hh_cython.pyx` file into a c-file using the cython compiler, and then compile the c-file into a module using the `compile.py` file. For more information, please consult the official documentation [here](https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html). Once done, you can run the experiments by following the `RunHH.ipynb` notebook. 
 
 ## Dependencies
 
@@ -36,8 +36,8 @@ If you use this code in your research, please consider citing the original paper
 @article{reducing-simulator-calls-sbi,
   author    = {David Refaeli and David M. Steinberg},
   title     = {Reducing Simulator Calls in SBI},
-  journal   = {Journal of Scientific Computing},
-  year      = {YYYY},
+  journal   = {Journal of XXXXX},
+  year      = {XXXX},
   volume    = {XX},
   number    = {XX},
   pages     = {XXX-XXX},
